@@ -87,11 +87,11 @@ The indent number will be calculated manually.
 Initialize two variables to store the total price for Price (Set A) and Price (Set B) each as zero. Use array loop to add each price to the total. For Example:
 
 ```Java
-double total = 0;
+double total = 0.0;
 
-for (double price : prices) {
+for (double num : nums) {
 
-    total += price;
+    total += num;
 }
 ```
 
