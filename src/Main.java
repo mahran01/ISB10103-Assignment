@@ -10,6 +10,10 @@ public class Main {
          * ------------------------------------------------------------
          */
         
+        String[] codes = {"BS01", "BS02", "BS03", "BS04"};
+        String[] products = {"Lipstick", "Compact Powder", "UV Sun Protection", "Lotion"};
+        double[] pricesSetA = {200.00, 200.00, 300.00, 100.00};
+        double[] pricesSetB = {250.00, 400.00, 500.00, 350.00};
         
         /*
          * ------------------------------------------------------------
