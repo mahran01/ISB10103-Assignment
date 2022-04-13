@@ -17,11 +17,11 @@
 
 ### Question
 
-You as a junior programmer at Beauty Salon. Your task is to produce a Sale System : the new outlet in Gombak. Your system should be able to display as following screen.
+You as a junior programmer at Beauty Salon. Your task is to produce a Sale System for the new outlet in Gombak. Your system should be able to display as following screen.
 
 ![](/assets/images/01.png)
 
-You are required to write a program to per:m the following tasks:
+You are required to write a program to perform the following tasks:
 
 #### Task 1
 
