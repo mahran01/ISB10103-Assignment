@@ -39,7 +39,7 @@ Calculate the total Price of all products sold and display it as the following f
 
 #### Task 4
 
-Sort the array in ascending/descending order : Price (Set B).
+Sort the array in ascending/descending order for Price (Set B).
 
 <hr>
 
