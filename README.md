@@ -99,10 +99,10 @@ Print the total with mentioned format using `System.out.format()`.
 
 #### Task 4
 
-Sort Price (Set B) in ascending order using `Array.sort()`. For example:
+Sort Price (Set B) in ascending order using `Arrays.sort()`. For example:
 
 ```Java
-Array.sort(arr);
+Arrays.sort(arr);
 ```
 
 Reverse the array with loop to make it appear in descending order. How to:
