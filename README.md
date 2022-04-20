@@ -176,7 +176,8 @@ The code can be found as follows:
 
 - [GitHub](src/Main.java)
 - [GitHub Raw](https://raw.githubusercontent.com/mahran01/ISB10103-Assignment/main/src/Main.java)
-- [JDoodle](http://jdoodle.com/ia/pRx)
+- [JDoodle](https://www.jdoodle.com/a/4IJS)
+- [JDoodle Embed](https://www.jdoodle.com/embed/v0/4IJS)
 
 The ouptput of the code is as follows:
 
