@@ -40,6 +40,27 @@ public class Main {
          * ------------------------------------------------------------
          */
         
+        // Initialize total for price (set A) and price (set B)
+        double totalPricesSetA = 0.0, totalPricesSetB = 0.0;
+
+        // Add all prices from set A to its total
+        for (double priceSetA : pricesSetA) {
+        
+            totalPricesSetA += priceSetA;
+        }
+        
+        // Add all prices from set B to its total
+        for (double priceSetB : pricesSetB) {
+        
+            totalPricesSetB += priceSetB;
+        }
+        
+        // Print empty line for readability reason
+        System.out.println();
+        
+        // Print both total
+        System.out.format("Total Price (Set A): RM %.2f\n", totalPricesSetA);
+        System.out.format("Total Price (Set B): RM %.2f\n", totalPricesSetB);
         
         /*
          * ------------------------------------------------------------
