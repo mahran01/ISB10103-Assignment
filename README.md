@@ -52,10 +52,10 @@ Initialize all arrays with proper types as follows:
 
 | Variables  | Data Types |
 | ---------- | ---------- |
-| codes      | String[ ]  |
-| products   | String[ ]  |
-| pricesSetA | double[ ]  |
-| pricesSetB | double[ ]  |
+| codes      | `String[]` |
+| products   | `String[]` |
+| pricesSetA | `double[]` |
+| pricesSetB | `double[]` |
 
 For example:
 
