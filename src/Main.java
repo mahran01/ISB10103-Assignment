@@ -21,6 +21,18 @@ public class Main {
          * ------------------------------------------------------------
          */
         
+        // Print the header
+        System.out.println("                          Beauty Salon                          ");
+        System.out.println("                             Gombak                             ");
+        System.out.println("----------------------------------------------------------------");
+        System.out.println("Code  Products           Price (Set A)  Price (Set B)           ");
+        System.out.println("----------------------------------------------------------------");
+        
+        // Print the body
+        for (int i = 0; i < codes.length; i++) {
+
+            System.out.format("%-4s  %-17s  %-13.2f  %-13.2f\n", codes[i], products[i], pricesSetA[i], pricesSetB[i]);
+        }
         
         /*
          * ------------------------------------------------------------
