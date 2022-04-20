@@ -46,7 +46,17 @@ public class Main {
          *  Task 4 - Sort Price (Set B)
          * ------------------------------------------------------------
          */
-         
-         
+        
+        // Sort Price (Set B) in ascending order
+        Arrays.sort(pricesSetB);
+        
+        // Reverse Price (Set B) arrangement to make it appear as descending order
+        for (int i = 0; i < pricesSetB.length / 2; i++) {
+
+            double tmp = pricesSetB[i];
+            pricesSetB[i] = pricesSetB[pricesSetB.length - 1 - i];
+            pricesSetB[pricesSetB.length - 1 - i] = tmp;
+        }
+        
     }
 }
