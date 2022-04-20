@@ -11,9 +11,10 @@
     4.  [Task 4](#task-4)
 2.  [Discussion](#discussion)
     1.  [Task 1](#task-1-1)
-    1.  [Task 2](#task-2-1)
-    1.  [Task 3](#task-3-1)
-    1.  [Task 4](#task-4-1)
+    2.  [Task 2](#task-2-1)
+    3.  [Task 3](#task-3-1)
+    4.  [Task 4](#task-4-1)
+3.  [Answer](#answer)
 
 ### Question
 
@@ -41,7 +42,7 @@ Calculate the total Price of all products sold and display it as the following f
 
 Sort the array in ascending/descending order for Price (Set B).
 
-<hr>
+---
 
 ### Discussion
 
@@ -165,4 +166,31 @@ for (int i = 0; i < arr.length / 2; i++) {
     arr[i] = arr[arr.length - 1 - i];
     arr[arr.length - 1 - i] = tmp;
 }
+```
+
+---
+
+### Answer
+
+The code can be found as follows:
+
+- [GitHub](src/Main.java)
+- [GitHub Raw](https://raw.githubusercontent.com/mahran01/ISB10103-Assignment/main/src/Main.java)
+- [JDoodle](http://jdoodle.com/ia/pRx)
+
+The ouptput of the code is as follows:
+
+```
+                          Beauty Salon
+                             Gombak
+----------------------------------------------------------------
+Code  Products           Price (Set A)  Price (Set B)
+----------------------------------------------------------------
+BS01  Lipstick           200.00         250.00
+BS02  Compact Powder     200.00         400.00
+BS03  UV Sun Protection  300.00         500.00
+BS04  Lotion             100.00         350.00
+
+Total Price (Set A): RM 800.00
+Total Price (Set B): RM 1500.00
 ```
